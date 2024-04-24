@@ -1,0 +1,692 @@
+.home .top {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100dvh;
+  margin: 0;
+}
+.home .top nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  top: 5px;
+}
+.home .top nav .logo {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+  height: 120pix;
+  margin-top: 5px;
+}
+.home .top nav .logo img {
+  height: 110px;
+  margin-left: 120px;
+}
+.home .top nav .menu ul {
+  justify-content: space-between;
+  display: flex;
+  text-decoration: none;
+  gap: 2rem;
+  font-size: 40px;
+  margin-right: 120px;
+}
+.home .top nav .menu ul a {
+  text-decoration: none;
+}
+.home .top .intro {
+  background: linear-gradient(rgba(0, 0, 0, 0), #000), url(https://res.cloudinary.com/dhxqidnfl/image/upload/v1705882433/young-woman-attending-group-therapy-looking-camera_qziqef.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+}
+.home .top .intro .title-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 30rem;
+  padding-right: 55%;
+  z-index: 999;
+  position: relative;
+  align-items: center;
+  height: 0;
+}
+.home .top .intro .title-image h1 {
+  display: flex;
+  color: aliceblue;
+  text-align: center;
+  position: relative;
+  font-size: 5rem;
+  font-weight: bold;
+}
+.home .top .intro .title-image p {
+  display: flex;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 2rem;
+  color: aliceblue;
+  position: relative;
+}
+.home .top .intro .title-image button {
+  background: rgb(47, 33, 245);
+  color: rgb(240, 248, 255);
+  font-size: 1.4rem;
+  display: flex;
+  padding: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.home .top .intro .title-image .bigmge {
+  background-color: black;
+  height: 100%;
+  opacity: 0.3;
+}
+.home .cards {
+  width: 100%;
+  height: 513px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  background: white;
+}
+.home .cards .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 24%;
+  height: 96%;
+}
+.home .cards .card h2 {
+  font-weight: bold;
+}
+.home .cards .card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.home .cards .card:hover {
+  box-shadow: 0 3px 3px 3px wheat;
+}
+.home .activities {
+  background: rgb(47, 33, 245);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  height: 900px;
+}
+.home .activities h2 {
+  font-size: 30px;
+  padding-top: 40px;
+}
+.home .activities p {
+  font-size: 25px;
+  padding-top: 30px;
+}
+.home .activities .cards2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3%;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.home .activities .cards2 .card2 {
+  width: 300px;
+  height: 300px;
+  gap: 8px;
+  padding-top: 35px;
+}
+.home .activities .cards2 .card2 img {
+  width: 300px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home .activities .cards2 .card2 h3 {
+  font-size: 20px;
+  padding: 10px 0;
+}
+.home .activities .cards2 .card2 p {
+  font-size: medium;
+  padding-top: 15px;
+}
+.home .activities .cards2 .card2 button {
+  margin-top: 20px;
+  width: 300px;
+  height: 100px;
+  border-radius: 25px;
+}
+.home .program .program__reconciliation {
+  width: 100%;
+  background-color: orange;
+  display: flex;
+}
+.home .program .program__reconciliation .program__reconciliation__text {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+.home .program .program__reconciliation .program__reconciliation__text h1, .home .program .program__reconciliation .program__reconciliation__text h3 {
+  text-align: center;
+  font-weight: bold;
+}
+.home .program .program__reconciliation .program__reconciliation__text h1 {
+  font-size: 2rem;
+}
+.home .program .program__reconciliation .program__reconciliation__text button {
+  width: 300px;
+  height: 100px;
+  color: aliceblue;
+  background: transparent;
+  border: 1px solid whitesmoke;
+  border-radius: 1rem;
+  font-weight: bold;
+}
+.home .program .program__reconciliation .program__reconciliation__text button:before {
+  background-color: azure;
+  color: orange;
+}
+.home .program .program__reconciliation .program__reconciliation__text button:hover {
+  color: orange;
+}
+.home .program .program__reconciliation .program__reconciliation__image {
+  display: flex;
+  width: 60%;
+}
+.home .program .program__reconciliation .program__reconciliation__image img {
+  width: 100%;
+  height: 100%;
+}
+.home .form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.home .form .one {
+  width: 33%;
+  height: 45%;
+  background-image: url(https://res.cloudinary.com/dhxqidnfl/image/upload/v1705952555/pexels-cottonbro-studio-4100643_lurw2g.jpg);
+  background-size: cover;
+}
+.home .form .one .B {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45%;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(228, 225, 225, 0.5), #000);
+  height: 45%;
+}
+.home .form .one .B h3 {
+  font-size: 2rem;
+  color: aliceblue;
+}
+.home .form .one .B button {
+  width: 12rem;
+  height: 3rem;
+  color: blue;
+  background: white;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+}
+.home .form .two {
+  width: 33%;
+  height: 45%;
+  background-image: url(https://res.cloudinary.com/dhxqidnfl/image/upload/v1705952555/pexels-julia-larson-6456293_quun0q.jpg);
+  background-size: cover;
+}
+.home .form .two .B {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45%;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(228, 225, 225, 0.5), #000);
+  height: 45%;
+}
+.home .form .two .B h3 {
+  font-size: 2rem;
+  color: aliceblue;
+}
+.home .form .two .B button {
+  width: 12rem;
+  height: 3rem;
+  color: blue;
+  background: white;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+}
+.home .form .three {
+  width: 33%;
+  height: 45%;
+  background-image: url(https://res.cloudinary.com/dhxqidnfl/image/upload/v1705952554/medium-shot-people-helping-sad-woman_zleaw6.jpg);
+  background-size: cover;
+}
+.home .form .three .B {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45%;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(228, 225, 225, 0.5), #000);
+  height: 45%;
+}
+.home .form .three .B h3 {
+  font-size: 2rem;
+  color: aliceblue;
+}
+.home .form .three .B button {
+  width: 12rem;
+  height: 3rem;
+  color: blue;
+  background: white;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+}
+.home .form .four {
+  width: 33%;
+  height: 45%;
+  background-image: url(https://res.cloudinary.com/dhxqidnfl/image/upload/v1705952554/pexels-ketut-subiyanto-4719936_jcva8t.jpg);
+  background-size: cover;
+}
+.home .form .four .B {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45%;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(228, 225, 225, 0.5), #000);
+  height: 45%;
+}
+.home .form .four .B h3 {
+  font-size: 2rem;
+  color: aliceblue;
+}
+.home .form .four .B button {
+  width: 12rem;
+  height: 3rem;
+  color: blue;
+  background: white;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+}
+.home .form .five {
+  width: 33%;
+  height: 45%;
+  background-image: url();
+  background-size: cover;
+}
+.home .form .five .B {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45%;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(228, 225, 225, 0.5), #000);
+  height: 45%;
+}
+.home .form .five .B h3 {
+  font-size: 2rem;
+  color: aliceblue;
+}
+.home .form .five .B button {
+  width: 12rem;
+  height: 3rem;
+  color: blue;
+  background: white;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+}
+.home .form .six {
+  width: 33%;
+  height: 45%;
+  background-image: url(https://res.cloudinary.com/dhxqidnfl/image/upload/v1705952553/pexels-rdne-stock-project-7468241_xxng5i.jpg);
+  background-image: cover;
+}
+.home .form .six .B {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45%;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(228, 225, 225, 0.5), #000);
+  height: 45%;
+}
+.home .form .six .B h3 {
+  font-size: 2rem;
+  color: aliceblue;
+}
+.home .form .six .B button {
+  width: 12rem;
+  height: 3rem;
+  color: blue;
+  background: white;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+}
+.home .testimonial .main .main__header {
+  background-color: rgb(47, 33, 245);
+  padding-bottom: 20rem;
+}
+.home .testimonial .main .main__header h1 {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  color: bisque;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.home .testimonial .main .main__header .liatestimons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.home .testimonial .main .main__header .liatestimons .liatestimons__image {
+  display: grid;
+  gap: 2rem;
+  font-weight: 400;
+  font-style: italic;
+  padding: 1rem;
+  color: skyblue;
+}
+.home .testimonial .main .main__header .liatestimons .liatestimons__image .liatestimons__image__single {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.home .testimonial .main .main__header .liatestimons .liatestimons__image .liatestimons__image__single img {
+  width: 4.5rem;
+  height: 5rem;
+  border-radius: 100%;
+}
+.home .testimonial .main .main__header .liatestimons .liatestimons__image:hover {
+  background-color: aliceblue;
+  color: white;
+  border-radius: 1rem;
+  box-shadow: 0 1px 1px 1px wheat;
+}
+.home .testimonial .main .Consultation {
+  display: flex;
+  position: relative;
+  top: -18rem;
+  box-shadow: 0px 1px 1px 1px rgb(209, 208, 208);
+  z-index: 999;
+  background-color: white;
+  width: 60%;
+  margin-left: 20%;
+  border-radius: 15px;
+}
+.home .testimonial .main .Consultation .consultation-placeholder {
+  width: 60%;
+}
+.home .testimonial .main .Consultation .consultation-placeholder .consultation-placeholder-input {
+  display: flex;
+  justify-content: space-evenly;
+}
+.home .testimonial .main .Consultation .consultation-placeholder .consultation-placeholder-input .nam {
+  display: flex;
+  flex-direction: column;
+}
+.home .testimonial .main .Consultation .consultation-placeholder .consultation-placeholder-input .nam input {
+  margin-bottom: 10%;
+  gap: 10px;
+  width: 18rem;
+  height: 7rem;
+  border-radius: 15px;
+  background: #e9e8e8;
+}
+.home .testimonial .main .Consultation .consultation-placeholder .consultation-placeholder-input .message {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.home .testimonial .main .Consultation .consultation-placeholder .consultation-placeholder-input .message input {
+  width: 18rem;
+  height: 15rem;
+  border-radius: 15px;
+  background: #dfdcdc;
+}
+.home .testimonial .main .Consultation .consultation-placeholder .consultation-placeholder-input .message button {
+  width: 13rem;
+  height: 6rem;
+  background-color: rgb(47, 33, 245);
+  color: aliceblue;
+  border-radius: 15px;
+}
+.home .testimonial .main .Consultation .consultation-placeholder h1 {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .testimonial .main .Consultation .consultation-placeholder .media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.home .testimonial .main .Consultation .consultation-placeholder .media img {
+  width: 4rem;
+}
+.home .testimonial .main .Consultation img {
+  display: flex;
+  width: 40%;
+  position: relative;
+  justify-content: right;
+  border-radius: 15px;
+}
+.home .testimonial .main .main__team {
+  width: 100%;
+  height: 70rem;
+  padding-top: 0rem;
+  display: flex;
+  background-color: white;
+}
+.home .testimonial .main .main__team .main__team__description {
+  color: black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: grid;
+  width: 55%;
+}
+.home .testimonial .main .main__team .main__team__description h3 {
+  font-weight: 800;
+}
+.home .testimonial .main .main__team .main__team__description h2 {
+  font-weight: 800;
+  position: relative;
+  top: 15px;
+}
+.home .testimonial .main .main__team .main__team__description button {
+  width: 12rem;
+  height: 4rem;
+  background: blue;
+  color: aliceblue;
+  border: none;
+  border-radius: 0.7rem;
+  position: relative;
+  left: 5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.home .testimonial .main .main__team .main__team__description img {
+  width: 9rem;
+  position: relative;
+  left: 30%;
+}
+.home .testimonial .main .main__team .main__team__image {
+  width: 45%;
+}
+.home .testimonial .main .main__team .main__team__image img {
+  width: 100%;
+  height: 85%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-top: 3rem;
+}
+.home .testimonial .main .mission .mission-frist {
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  padding-bottom: 6rem;
+  flex-direction: column;
+  text-align: center;
+}
+.home .testimonial .main .mission .mission-frist h1 {
+  text-align: center;
+  font-size: 3.3rem;
+  font-family: Arial;
+}
+.home .testimonial .main .mission .mission-frist p {
+  text-align: center;
+  font-size: 3.3rem;
+  font-family: Helvetica;
+  font-weight: 100;
+  letter-spacing: 1px;
+  padding: 2rem 0;
+}
+.home .testimonial .main .mission .mission-frist button {
+  width: 13rem;
+  height: 4rem;
+  margin-left: 45%;
+  border-radius: 0.7rem;
+  font-weight: 600;
+  font-size: 1rem;
+  color: aliceblue;
+  background-color: blue;
+  border-color: transparent;
+}
+.home .testimonial .main .mission .mission-frist button button:hover {
+  color: aqua;
+}
+.home .testimonial .main .mission-second img {
+  width: 100%;
+  height: 48rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home .testimonial .main .footer {
+  width: 100%;
+  height: 45rem;
+  background: blue;
+}
+.home .testimonial .main .footer .content {
+  width: 100%;
+  height: 35rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.home .testimonial .main .footer .content .beta {
+  width: 15rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+  margin-left: 6rem;
+  margin-bottom: 5rem;
+  background-color: aliceblue;
+  gap: 1rem;
+}
+.home .testimonial .main .footer .content .beta .log img {
+  width: 15rem;
+  height: 13rem;
+}
+.home .testimonial .main .footer .content .beta .com {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.home .testimonial .main .footer .content .beta .com img {
+  width: 3rem;
+}
+.home .testimonial .main .footer .content .hom {
+  margin-left: 30rem;
+}
+.home .testimonial .main .footer .content .hom ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+.home .testimonial .main .footer .content .hom ul a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+}
+.home .testimonial .main .footer .content .contacte {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.3rem;
+}
+.home .testimonial .main .footer .content .contacte h1 {
+  justify-content: center;
+  font-size: 1rem;
+  color: aliceblue;
+  text-align: center;
+}
+.home .testimonial .main .footer .content .contacte p {
+  justify-content: center;
+  font-size: 0.7rem;
+  color: aliceblue;
+  text-align: center;
+}
+.home .testimonial .main .footer .content .contacte .nam {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.home .testimonial .main .footer .content .contacte .nam input {
+  width: 25rem;
+  height: 3rem;
+  background-color: #c7c3c3;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.home .testimonial .main .footer .content .contacte .message {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  gap: 0.7rem;
+}
+.home .testimonial .main .footer .content .contacte .message input {
+  width: 25rem;
+  height: 7rem;
+  background-color: #c7c3c3;
+}
+.home .testimonial .main .footer .content .contacte .message button {
+  width: 11rem;
+  height: 3rem;
+  color: blue;
+  background-color: white;
+  border-radius: 15px;
+  margin-left: 7rem;
+}
+.home .testimonial .main .footer .navro ul {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 35%;
+}
+.home .testimonial .main .footer .navro ul a {
+  font-size: 15px;
+  color: aliceblue;
+  text-decoration: none;
+}/*# sourceMappingURL=styles.css.map */
